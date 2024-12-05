@@ -1,5 +1,5 @@
 .entirePage {
-  background-color: whitesmoke;
+  background-color: white;
   max-width: 600px;
   margin: 30px auto;
   padding: 30px;
@@ -7,7 +7,8 @@
   border-radius: 10px;
 }
 body {
-  background-color: white;
+  background-color: whitesmoke;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .search-input {
   background-color: #f9f7fe;
@@ -28,17 +29,36 @@ body {
   border-radius: 5px;
   margin-left: 5px;
 }
-
-.temperature {
-  position: fixed;
-  top: 25%;
-  right: 15%;
-  font-size: 50px;
+#number-temp {
+  font-size: 80px;
+  font-family: monospace;
   font-weight: bolder;
 }
+.degress {
+  top: -38px;
+  position: relative;
+  left: -39px;
+  font-size: 24px;
+}
 .emoji {
-  position: fixed;
-  top: 26%;
-  left: 65%;
-  font-size: 40px;
+  font-size: 45px;
+  position: relative;
+  top: -5px;
+}
+.the-main {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 16px;
+}
+.current-temp {
+  position: absolute;
+  right: 8%;
+}
+footer {
+  margin-top: 70px;
+}
+.the-main strong {
+  color: red;
+  font-weight: bold;
 }
