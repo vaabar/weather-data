@@ -1,12 +1,11 @@
 function updateWeather(response) {
   let tempreatureInput = document.querySelector("number-temp");
-
   let temperature = response.data.city.temprature.current;
   tempreatureInput.innerHTML = Math.round(temperature);
-
   let theCityelement = document.querySelector("#the-city");
-  theCityelement.innerHTML = respose.data.city;
-  tempreatureInput.innerHTML = Math.round(number);
+
+  theCityelement.innerHTML = response.data.city;
+  tempreatureInput.innerHTML = Math.round(temperature);
 }
 function searchCity(city) {
   let apiKey = "o8c4364da7btfb6f80cb313baf6dceea";
