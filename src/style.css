@@ -29,32 +29,30 @@ body {
   border-radius: 5px;
   margin-left: 5px;
 }
-#number-temp {
-  font-size: 80px;
-  font-family: monospace;
-  font-weight: bolder;
+.current-temp {
+  display: flex;
 }
 .degress {
-  top: -38px;
-  position: relative;
-  left: -39px;
-  font-size: 24px;
+  font-size: 20px;
+  margin-left: 1px;
+}
+.temperatures {
+  font-size: 88px;
+  margin-left: 10px;
+  font-weight: bold;
 }
 .emoji {
-  font-size: 45px;
-  position: relative;
-  top: -5px;
+  font-size: 40px;
+  margin-top: 22px;
 }
+
 .the-main {
   display: flex;
   justify-content: space-between;
 
   padding: 16px;
 }
-.current-temp {
-  position: absolute;
-  right: 8%;
-}
+
 footer {
   margin-top: 70px;
 }
